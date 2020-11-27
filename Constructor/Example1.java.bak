@@ -1,0 +1,14 @@
+class Example1 
+{
+	Example1(int a)
+	{
+		System.out.println("In int-arg Constructor");
+		System.out.println(a)
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("In Mmain");
+		Example1 e=new Example1(50);
+		System.out.println("Hello World!");
+	}
+}

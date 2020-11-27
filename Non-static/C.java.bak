@@ -1,0 +1,25 @@
+class C 
+{
+	int x=10;
+	int y=20;
+	void setxy()
+	{
+		int x=50;
+		int y=60;
+	}
+	void printxy()
+	{
+		System.out.println("X: "+x);
+		System.out.println("Y:  "+y);
+	}
+	void m1()
+	{
+		setxy();
+		printxy();
+	}
+	public static void main(String[] args) 
+	{
+		C c=new C();
+		c.m1();
+	}
+}

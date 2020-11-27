@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+F:\CORE JAVA\OOPS\.metadata\.plugins\org.eclipse.jdt.core
+3416853083.index
+3892055885.index

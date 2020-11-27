@@ -1,0 +1,10 @@
+
+public class p {
+	public void property() {
+		System.out.println("Cash + Land + Gold");
+	}
+	public void marry() {
+		System.out.println("Subha laxmi");
+	}
+
+}

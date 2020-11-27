@@ -1,0 +1,35 @@
+class Example3 
+{
+	int x=m1();
+	int m1()
+	{
+		System.out.println("NSV x");
+		return 10;
+	}
+	{
+		System.out.println("NSB1");
+	}
+	Example3()
+	{
+		System.out.println("No-arg Constructor");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main");
+		Example3 e=new Example3();
+
+	}
+	{
+		System.out.println("NSB2");
+	}
+	int y=m2();
+	int m2()
+	{
+		System.out.println("NSV y");
+		return 20;
+
+
+
+
+	}
+}

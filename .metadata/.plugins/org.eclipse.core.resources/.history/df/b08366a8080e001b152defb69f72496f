@@ -1,0 +1,75 @@
+package in.nit.test;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import in.nit.model.Si;
+
+public class Test {
+	static void Per_Day_SI(String start_date, 
+                   String end_date, long principle, int rate) 
+    { 
+		long Si;
+		long Year;
+		int n;
+		
+		Si si =new Si();
+        // SimpleDateFormat converts the 
+        // string format to date object 
+        SimpleDateFormat sdf 
+            = new SimpleDateFormat( 
+                "dd-MM-yyyy HH:mm:ss"); 
+  
+        // Try Block 
+        try { 
+  
+            // parse method is used to parse 
+            // the text from a string to 
+            // produce the date 
+            Date d1 = sdf.parse(start_date); 
+            Date d2 = sdf.parse(end_date); 
+  
+            // Calucalte time difference 
+            // in milliseconds 
+            long difference_In_Time 
+                = d2.getTime() - d1.getTime(); 
+            long difference_In_Days 
+                = (difference_In_Time 
+                   / (1000 * 60 * 60 * 24)) 
+                  % 365; 
+           si.setYear(difference_In_Days);
+        } 
+  
+        // Catch the Exception 
+        catch (ParseException e) { 
+            e.printStackTrace(); 
+        } 
+        System.out.println( 
+                si.getYear()
+                + " days, "
+                ); 
+         n = (int) si.getYear();
+         Year = si.getYear()/365;
+         System.out.println(Year);
+       // Si = principle * 
+        
+    } 
+
+	public static void main(String[] args) {
+		 // Given start Date 
+		
+        String start_date 
+            = "10-01-2018 01:10:20"; 
+  
+        // Given end Date 
+        String end_date 
+            = "10-06-2020 06:30:50"; 
+  
+        // Function Call 
+        Per_Day_SI(start_date, end_date,340000,10); 
+        
+        
+	}
+
+}

@@ -1,0 +1,16 @@
+class Test 
+{
+	static void m1()
+		{
+			System.out.println("Hello World!");
+		}
+	public static void main(String[] args) 
+	{
+		int x=15;
+		System.out.println(x);//variable calling
+
+		m1();//method calling
+		
+
+	}
+}

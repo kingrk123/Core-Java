@@ -1,0 +1,34 @@
+class Company 
+{
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		e1.eno=101;
+		e1.ename="kingrk";
+		e1.salary=24000;
+		e1.dept="java";
+
+		System.out.println("Employee kingrk is created in java");
+
+		Employee e2=new Employee();
+		e2.eno=102;
+		e2.ename="puru";
+		e2.salary=20000;
+		e2.dept="java";
+
+		System.out.println("student puru is created in java\n");
+
+		System.out.println("e1 Object value \n");
+		System.out.println("e1 no.   \t:"+e1.eno);
+		System.out.println("e1 name  \t:"+e1.ename);
+		System.out.println("e1 salary\t:"+e1.salary);
+		System.out.println("e1 dept  \t:"+e1.dept+"\n");
+
+		System.out.println("e2 Object value ");
+		System.out.println("e2 no.   \t:"+e2.eno);
+		System.out.println("e2 name. \t:"+e2.ename);
+		System.out.println("e2 salary\t:"+e2.salary);
+		System.out.println("e2 dept  \t:"+e2.dept);
+
+	}
+}

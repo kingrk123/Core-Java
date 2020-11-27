@@ -1,0 +1,11 @@
+
+public class p {
+	public  Object m1() {
+		return null;
+	}
+}
+class c extends p{
+	public  String m1() {
+		return null;
+	}
+}

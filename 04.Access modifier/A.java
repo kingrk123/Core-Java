@@ -1,0 +1,16 @@
+public class A 
+{
+	public int x=10;
+	private int y=20;
+	protected int z=30;
+	int p =40;
+	public static void main(String[] args) 
+	{
+		A a=new A();
+		System.out.println(a.x);
+		System.out.println(a.y);
+		System.out.println(a.z);
+		System.out.println(a.p);
+
+	}
+}

@@ -1,0 +1,33 @@
+class Bank 
+{
+	public static void main(String[] args) 
+	{
+		Account a1=new Account();
+		a1.acctno=452158101;
+		a1.acctname="kiran ranvirkar";
+		a1.balance=240000;
+		long mobno[]={7276768040L,9623240111L};
+		
+
+		System.out.println("Account kiran is created in bank");
+		Account a2=new Account();
+		a2.acctno=452158101;
+		a2.acctname="pranav borkar";
+		a2.balance=200000;
+		long[] mobno1={7279628040L,9623240111L};
+		System.out.println("student puru is created in bank\n");
+
+		System.out.println("a1 Object value \n");
+		System.out.println("a1 account no     \t:"+a1.acctno);
+		System.out.println("a1 account name   \t:"+a1.acctname);
+		System.out.println("a1 account balance\t:"+a1.balance);
+		System.out.println("a1 mobile number  \t:"+mobno[0]+","+mobno[1]+"\n");
+
+		System.out.println("a2 Object value \n");
+		System.out.println("a2 account no     \t:"+a2.acctno);
+		System.out.println("a2 account name   \t:"+a2.acctname);
+		System.out.println("a2 account balance\t:"+a2.balance);
+		System.out.println("a2 mobile number  \t:"+mobno1[0]+","+mobno[1]);
+
+	}
+}

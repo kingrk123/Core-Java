@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
+<fullyQualifiedTypeName name="Inheritance_static1.A1"/>
+<fullyQualifiedTypeName name="Inheritance_NSV2.Example"/>
+<fullyQualifiedTypeName name="Inheritance_NSV2.sample"/>
+<fullyQualifiedTypeName name="SuperInConstructor.Example"/>
+<fullyQualifiedTypeName name="SuperInConstructor.Sample"/>
+<fullyQualifiedTypeName name="Overloading.Test"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+</qualifiedTypeNameHistroy>
